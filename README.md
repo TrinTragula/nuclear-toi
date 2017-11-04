@@ -19,8 +19,8 @@ At the moment this is very simple since it's born to serve a purpose in another 
 
   /**
    * Get the elements decaying at the specified energy range. return a promise
-   * @param {number} from energy (integer)
-   * @param {number} to energy (integer)
+   * from: energy in keV (integer)
+   * to: energy in keV (integer)
    */
   Toi.getGammaAtEnergyRange(300, 301).then(data => {
     for (var x of data) {
@@ -46,8 +46,8 @@ At the moment this is very simple since it's born to serve a purpose in another 
   var Toi = require('nuclear-toi');
   /**
    * Get all the possible elements with the specified energies, within an error
-   * @param {number[]} energyArray 
-   * @param {number} error 
+   * First argument: number[] energyArray in keV
+   * Second argument: number error in keV
    */
    Toi.getPossibleElementsWithError([333,444,555], 1).then(data => {
       for (var x of data) {
