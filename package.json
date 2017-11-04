@@ -1,7 +1,7 @@
 {
   "name": "nuclear-toi",
-  "version": "1.0.0",
-  "description": "An npm package to query data from the Lund/LBNL Nuclear Data Search (http://nucleardata.nuclear.lu.se/toi/) Table of Isotopes Edit",
+  "version": "1.0.1",
+  "description": "An npm package to query data from the Lund/LBNL Nuclear Data Search (http://nucleardata.nuclear.lu.se/toi/) Table of Isotopes",
   "main": "toi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
