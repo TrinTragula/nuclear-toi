@@ -65,8 +65,8 @@ At the moment this is very simple since it's born to serve a purpose in another 
   ```
 
 ## Contact
-For any question, new features request or problem please fill an issue or email me at dcat (at) protonmail (dot) com. I'll be glad to hear form you and try to help as I can.
+For any question, new features request or problem please fill an issue or email me at **dcat (at) protonmail (dot) com**. I'll be glad to hear form you and try to help as I can.
 
-This was made by Trintragula (Daniele) in 2017. Don't do this for anything evil and try to respect the service this is based on.
+_This was made by Trintragula (Daniele) in 2017. **Don't** use this for anything evil and try to respect the service this is based on._
 
 I'll write a blog post abou this sooner or later at [blog.danielescarinci.com](blog.danielescarinci.com)
