@@ -1,0 +1,35 @@
+{
+  "name": "nuclear-toi",
+  "version": "1.0.0",
+  "description": "An npm package to query data from the Lund/LBNL Nuclear Data Search (http://nucleardata.nuclear.lu.se/toi/) Table of Isotopes Edit",
+  "main": "toi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrinTragula/nuclear-toi.git"
+  },
+  "keywords": [
+    "toi",
+    "nuclear",
+    "data",
+    "gamma",
+    "rays",
+    "radiation",
+    "elements",
+    "api"
+  ],
+  "author": "Trintragula (Daniele)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TrinTragula/nuclear-toi/issues"
+  },
+  "homepage": "https://github.com/TrinTragula/nuclear-toi#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
