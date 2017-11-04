@@ -1,5 +1,7 @@
 # Nuclear toi
-### Table of Radioactive Isotopes (toi) API
+### Table of Radioactive Isotopes (toi) API <img src="https://camo.githubusercontent.com/f5901b35cf63acd4e1225f44345c5f974fad0749/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a306672335062543258716a734d4435327363322d4e512e706e67" width="48"> 
+[Link to the npm package](https://www.npmjs.com/package/nuclear-toi)
+
 An npm package to query data from the **Lund/LBNL Nuclear Data Search (http://nucleardata.nuclear.lu.se/toi/) Table of Isotopes**.
 It queries data from the database and act as an API for their very simple (_and very, very yellow_) website. It behaves like an API for you, but what it actually does is making GET requests to their server and parsing the html tables they use.
 
