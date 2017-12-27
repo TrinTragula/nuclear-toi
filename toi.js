@@ -155,6 +155,7 @@ var parseGammaData = function (htmlString, energy) {
     let $ = cheerio.load(htmlString);
     let td = $("td");
     let data = [];
+    let regex = /^\d*m\w*$/;
     td.each(function (i, x) {
         let j = Math.floor(i / 5);
         if (!data[j])
@@ -175,8 +176,12 @@ var parseGammaData = function (htmlString, energy) {
             data[j].Intensity = parseFloat(k);
         if (pos == 2)
             data[j].Decay = k;
-        if (pos == 4)
+        if (pos == 4) {
+            if (k.match(regex)) {
+                k.replace("m", "");
+            }
             data[j].Element = k;
+        }
     });
     data.pop();
     data = data.filter(x => !isNaN(x.Intensity) && energy ? !(x.Energy - 1 >= energy) : true);
