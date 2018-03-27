@@ -71,4 +71,4 @@ For any question, new features request or problem please fill an issue or email 
 
 _This was made by Trintragula (Daniele) in 2017. **Don't** use this for anything evil and try to respect the service this is based on._
 
-I'll write a blog post abou this sooner or later at [blog.danielescarinci.com](http://blog.danielescarinci.com)
+I'll write a blog post about this sooner or later at [blog.danielescarinci.com](http://blog.danielescarinci.com)
